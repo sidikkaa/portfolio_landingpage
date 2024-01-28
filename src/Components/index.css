@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.animatedText {
+    animation: fadeInOut 1s infinite; 
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .form-container {
+    
+    padding: 1rem;
+    border-radius: 0.375rem; 
+  }
+  
+  .form-container span {
+    font-size: 0.9375rem; 
+  }
+  
+  .text-white {
+    color: #fff; 
+  }
+  
+  .text-red-400 {
+    color: #fc8181; 
+  }
+  
+
+  
+  
